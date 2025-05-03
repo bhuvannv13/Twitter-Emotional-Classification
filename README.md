@@ -41,6 +41,7 @@ python app.py
  Live Demo
 Hosted on Hugging Face Spaces or localhost (Gradio). Enter a sentence, and it will return the predicted emotion label.
 Link: https://huggingface.co/spaces/bhuvann13/Twitter_emotional_analysis
+
 *Dependencies*
 See requirements.txt for exact versions.
 
