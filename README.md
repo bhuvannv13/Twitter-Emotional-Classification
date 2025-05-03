@@ -3,6 +3,8 @@
 ##  Overview
 This project classifies emotions from raw text by combining traditional word embeddings with sentiment polarity scores using a dual-input Bidirectional LSTM (BiLSTM) architecture. It is built with TensorFlow and deployed via a Gradio-powered web interface.
 
+# Dataset: https://www.kaggle.com/datasets/kosweet/cleaned-emotion-extraction-dataset-from-twitter
+
 ## Model Highlights
 - Dual-input architecture: One input for tokenized text and one for sentiment score.
 - BiLSTM for textual representation.
