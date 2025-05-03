@@ -45,12 +45,6 @@ Link: https://huggingface.co/spaces/bhuvann13/Twitter_emotional_analysis
 *Dependencies*
 See requirements.txt for exact versions.
 
-*Evaluation Summary*
-Emotion	Precision	Recall	F1-Score	Support
-angry	0.83	0.93	0.88	30,234
-disappointed	0.91	0.86	0.88	31,318
-happy	1.00	0.93	0.96	30,106
-Accuracy			0.91	91,658
 
 *Future Enhancements*
 Use Transformer-based encoders (e.g., BERT, RoBERTa)
