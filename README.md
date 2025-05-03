@@ -11,19 +11,6 @@ This project classifies emotions from raw text by combining traditional word emb
 - Residual dense layers for improved gradient flow.
 - Achieves **90.63% test accuracy** and **0.2136 test loss**.
 
-##  Project Structure
-
-emotion_classifier/
-├── app.py # Gradio app code
-├── best_model.h5 # Trained Keras model
-├── tokenizer.pkl # Tokenizer used during training
-├── label_encoder.pkl # LabelEncoder for mapping predictions
-├── ROC_curve.png # ROC curve visualization
-├── CFMat.png # Confusion matrix
-├── requirements.txt # Python dependencies
-└── README.md # Project description
-
-
 
 ## How to Run the Project
 
