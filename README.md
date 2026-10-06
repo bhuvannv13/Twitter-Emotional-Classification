@@ -14,34 +14,22 @@ This project classifies emotions from raw text by combining traditional word emb
 
 ## How to Run the Project
 
-1. Clone the repository:
-   git clone https://github.com/yourusername/emotion-classifier.git
-   cd emotion-classifier
-   
-Install dependencies:
-
-
+```bash
+git clone https://github.com/bhuvannv13/Twitter-Emotional-Classification.git
+cd Twitter-Emotional-Classification
 pip install -r requirements.txt
-
-
-Launch the Gradio app:
-
 python app.py
- Live Demo
-Hosted on Hugging Face Spaces or localhost (Gradio). Enter a sentence, and it will return the predicted emotion label.
-Link: https://huggingface.co/spaces/bhuvann13/Twitter_emotional_analysis
+```
 
-*Dependencies*
-See requirements.txt for exact versions.
+The Gradio app loads `best_model.h5`, `tokenizer.pkl` and `label_encoder.pkl` from the repository folder. Enter a sentence and it returns the predicted emotion.
 
-Change the Path according to your convenience.
+## Live Demo
 
-*Future Enhancements*
-Use Transformer-based encoders (e.g., BERT, RoBERTa)
+[Hugging Face Space](https://huggingface.co/spaces/bhuvann13/Twitter_emotional_analysis)
 
-Add emoji-to-emotion interpretation
+## Future Enhancements
 
-Extend emotion categories (e.g., surprise, disgust)
-
-Add REST API or Docker support
-
+- Use Transformer-based encoders (e.g., BERT, RoBERTa)
+- Add emoji-to-emotion interpretation
+- Extend emotion categories (e.g., surprise, disgust)
+- Add REST API or Docker support
